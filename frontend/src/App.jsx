@@ -11,6 +11,8 @@ import Login from "./pages/Login";
 import Contact from "./pages/Contact";
 import Signup from "./pages/Signup";
 import Product from "./pages/Product"
+import Dashboard from "./pages/Dashboard"
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -43,6 +45,7 @@ function App() {
             <Route path="/signup" element={<Signup />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/product" element={<Product />} />
+            <Route path="/dashboard" element={<Dashboard />} />
           </Routes>
         </div>
         <Footer />

@@ -31,7 +31,7 @@ const Login = ({ togglePlay }) => {
         alert("Login successful!");
         setFormData({ name: "", email: "", password: "" });
         // Redirect user to dashboard or any other page upon successful login
-        window.location.href = "/product"; // Change this to the desired URL
+        window.location.href = "/dashboard"; // Change this to the desired URL
       } else {
         setError("Invalid email or password. Try Again");
       }
